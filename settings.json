@@ -1,0 +1,34 @@
+{
+    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome against localhost",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://192.168.51.40:8080/Checador/Insertar.php",
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "type": "chrome",
+            "request": "attach",
+            "port": 3306,
+            "webRoot": "${workspaceRoot}"
+        }
+
+    ],
+    "php.debug.executablePath": "http://192.168.51.40/html/phpmyadmin/index.php",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true
+    // hola fbdndn
+
+    /*
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.editorAssociations": {
+        "*.mwb": "default"
+    },
+    "php.validate.executablePath": "http://192.168.51.40/html/phpmyadmin/index.php",
+    "php.debug.executablePath": ""
+    */
+}
