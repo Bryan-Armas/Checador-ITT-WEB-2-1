@@ -3,6 +3,7 @@
 <title> Mi primer formulario con VS Code </title>
 </head>
 <body>
+    <!-- hola -->
 <form action="cod_registro.php" method="post">
 <h2>Mi primer formulario del mini curso de php con Visual Studio Code </h2>
 <input type="number" id="IdEmpleados" name="IdEmpleados" require placeholder="NoControl"/>
