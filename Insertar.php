@@ -1,7 +1,7 @@
 <html>
 <head>
 <title> Mi primer formulario con VS Code </title>
-</head>
+</head> 
 <body>
     <!-- hola -->
 <form action="cod_registro.php" method="post">
@@ -12,5 +12,11 @@
 <input type="number" id="Tel" name="Tel" require placeholder="Telefono"/>
 <button type="submit">Registrar usuario</button>
 </form>
+
+<!-- 
+    posible link de conexion de base de datos:
+    https://www.youtube.com/watch?v=39b4vvfqL58&ab_channel=divcode
+
+-->
 </body>
 </html>
